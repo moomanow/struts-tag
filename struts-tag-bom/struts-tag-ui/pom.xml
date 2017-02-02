@@ -91,7 +91,6 @@
 		<dependency>
 			<groupId>com.moomanow</groupId>
 			<artifactId>moomanow-paging</artifactId>
-			<version>0.0.7</version>
 		</dependency>
 	</dependencies>
 </project>
