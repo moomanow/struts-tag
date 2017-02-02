@@ -5,16 +5,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.struts2.components.Component;
-//import org.apache.struts2.components.Set;
 import org.apache.struts2.views.jsp.ui.AbstractClosingTag;
 import com.moomanow.web.struts.components.Paging;
 
 import com.opensymphony.xwork2.util.ValueStack;
 
 
-/**
- * @see Set
- */
 public class PagingTag extends AbstractClosingTag {
 
     private static final long serialVersionUID = -5074213926790716974L;

@@ -14,13 +14,13 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
 					<compilerArgs>
-						<arg>-Auri=/struts-ui-tags</arg>
+						<arg>-Auri=/struts-moo-tags</arg>
 						<arg>-AtlibVersion=${tlib.version}</arg>
 						<arg>-AjspVersion=2.0</arg>
-						<arg>-AshortName=sj</arg>
-						<arg>-AdisplayName=Struts2 ui Tags</arg>
-						<arg>-AoutFile=${basedir}/target/classes/META-INF/struts-ui-tags.tld</arg>
-						<arg>-Adescription="Struts2 ui."</arg>
+						<arg>-AshortName=sm</arg>
+						<arg>-AdisplayName=Struts2 Moo Tags</arg>
+						<arg>-AoutFile=${basedir}/target/classes/META-INF/struts-moo-tags.tld</arg>
+						<arg>-Adescription="Struts2 Moo."</arg>
 						<arg>-AoutTemplatesDir=${basedir}/src/site/docs</arg>
 					</compilerArgs>
 				</configuration>
@@ -33,6 +33,7 @@
 					</execution>
 				</executions>
 			</plugin>
+
 		</plugins>
 	</build>
 
