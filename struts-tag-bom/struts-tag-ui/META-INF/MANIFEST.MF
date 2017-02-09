@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Created-By: 1.7.0
-Built-By: Kwan http://www.moomanow.com
-Build-Jdk: 1.7.0
-Bundle-Version: 1.7.0
-Bundle-Description: Apache Struts 2 Moo Plugin
-Bundle-Name: Struts 2 Moo Plugin
-Bundle-SymbolicName: com.moomanow.struts2-moo-plugin
