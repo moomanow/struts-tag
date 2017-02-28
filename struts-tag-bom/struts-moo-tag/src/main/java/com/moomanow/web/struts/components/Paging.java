@@ -12,7 +12,7 @@ import com.moomanow.core.common.bean.PagingBean;
 import com.opensymphony.xwork2.util.ValueStack;
 
 
-@StrutsTag(name="paging", tldBodyContent="JSP", tldTagClass="com.moomanow.web.struts.view.jsp.PagingTag", description="Assigns a value to a variable in a specified scope")
+@StrutsTag(name="paging", tldBodyContent="JSP", tldTagClass="com.moomanow.web.struts.view.jsp.ui.PagingTag", description="Assigns a value to a variable in a specified scope")
 public class Paging extends Form {
 
     public static final String OPEN_TEMPLATE = "paging";
