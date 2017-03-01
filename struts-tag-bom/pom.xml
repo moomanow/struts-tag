@@ -200,6 +200,16 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+			<dependency>
+				<groupId>com.moomanow.web.struts</groupId>
+				<artifactId>struts-moo-tag</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.moomanow.web.struts</groupId>
+				<artifactId>struts-moo-authentication-tag</artifactId>
+				<version>${project.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 </project>
