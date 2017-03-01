@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.moomanow.web.struts</groupId>
 	<artifactId>struts-tag-bom</artifactId>
-	<version>0.0.9</version>
+	<version>0.0.10</version>
 	<packaging>pom</packaging>
 	<parent>
 		<groupId>org.sonatype.oss</groupId>
@@ -27,7 +27,7 @@
 
 	<properties>
 		<currentVersion>${project.version}</currentVersion>
-		<struts2.version>2.5.8</struts2.version>
+		<struts2.version>2.5.2</struts2.version>
 		<tlib.version>2.3</tlib.version>
 		<minify.version>1.7.4</minify.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
