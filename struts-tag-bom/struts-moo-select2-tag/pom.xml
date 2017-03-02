@@ -1,12 +1,14 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>com.moomanow.web.struts</groupId>
-    <artifactId>struts-tag-bom</artifactId>
-    <version>0.0.11</version>
-  </parent>
-  <artifactId>struts-moo-tag</artifactId>
-  	<build>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.moomanow.web.struts</groupId>
+		<artifactId>struts-tag-bom</artifactId>
+		<version>0.0.11</version>
+	</parent>
+	<artifactId>struts-moo-select2-tag</artifactId>
+
+	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -16,10 +18,10 @@
 						<arg>-Auri=/struts-moo-tags</arg>
 						<arg>-AtlibVersion=${tlib.version}</arg>
 						<arg>-AjspVersion=2.0</arg>
-						<arg>-AshortName=sm</arg>
-						<arg>-AdisplayName=Struts2 Moo Tags</arg>
-						<arg>-AoutFile=${basedir}/target/classes/META-INF/struts-moo-tags.tld</arg>
-						<arg>-Adescription="Struts2 Moo."</arg>
+						<arg>-AshortName=sms</arg>
+						<arg>-AdisplayName=Struts2 Moo select2 Tags</arg>
+						<arg>-AoutFile=${basedir}/target/classes/META-INF/struts-moo-select2-tags.tld</arg>
+						<arg>-Adescription="Struts2 Moo select2."</arg>
 						<arg>-AoutTemplatesDir=${basedir}/src/site/docs</arg>
 					</compilerArgs>
 				</configuration>
@@ -87,10 +89,6 @@
 			<artifactId>velocity</artifactId>
 			<version>1.5</version>
 			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.moomanow</groupId>
-			<artifactId>moomanow-paging</artifactId>
 		</dependency>
 	</dependencies>
 </project>

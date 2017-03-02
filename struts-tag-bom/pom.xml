@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.moomanow.web.struts</groupId>
 	<artifactId>struts-tag-bom</artifactId>
-	<version>0.0.10</version>
+	<version>0.0.11</version>
 	<packaging>pom</packaging>
 	<parent>
 		<groupId>org.sonatype.oss</groupId>
@@ -23,6 +23,7 @@
 		
 		<module>struts-moo-tag</module>
 		<module>struts-moo-authentication-tag</module>
+		<module>struts-moo-select2-tag</module>
 	</modules>
 
 	<properties>
@@ -208,6 +209,11 @@
 			<dependency>
 				<groupId>com.moomanow.web.struts</groupId>
 				<artifactId>struts-moo-authentication-tag</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.moomanow.web.struts</groupId>
+				<artifactId>struts-moo-select2-tag</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 		</dependencies>
