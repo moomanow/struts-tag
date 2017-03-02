@@ -23,7 +23,8 @@
 		
 		<module>struts-moo-tag</module>
 		<module>struts-moo-authentication-tag</module>
-		<module>struts-moo-select2-tag</module>
+		
+		<module>struts-moo-select-tag</module>
 	</modules>
 
 	<properties>
@@ -213,7 +214,7 @@
 			</dependency>
 			<dependency>
 				<groupId>com.moomanow.web.struts</groupId>
-				<artifactId>struts-moo-select2-tag</artifactId>
+				<artifactId>struts-moo-select-tag</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 		</dependencies>

@@ -10,16 +10,16 @@ import org.apache.struts2.views.TagLibraryDirectiveProvider;
 import org.apache.struts2.views.TagLibraryModelProvider;
 
 import com.moomanow.web.struts.components.Select2;
-import com.moomanow.web.struts.views.freemarker.tags.StrutsMooSelect2Models;
+import com.moomanow.web.struts.views.freemarker.tags.StrutsMooSelectModels;
 import com.opensymphony.xwork2.util.ValueStack;
 
-public class StrutsMooSelect2TagLibrary implements TagLibraryDirectiveProvider, TagLibraryModelProvider {
+public class StrutsMooSelectTagLibrary implements TagLibraryDirectiveProvider, TagLibraryModelProvider {
 
 	
 	
 	@Override
 	public Object getModels(ValueStack stack, HttpServletRequest req, HttpServletResponse res) {
-		return new StrutsMooSelect2Models(stack, req, res);
+		return new StrutsMooSelectModels(stack, req, res);
 	}
 
 	@Override

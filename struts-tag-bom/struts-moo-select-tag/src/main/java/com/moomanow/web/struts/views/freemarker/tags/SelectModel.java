@@ -9,9 +9,9 @@ import org.apache.struts2.views.freemarker.tags.TagModel;
 import com.moomanow.web.struts.components.Select2;
 import com.opensymphony.xwork2.util.ValueStack;
 
-public class Select2Model extends TagModel {
+public class SelectModel extends TagModel {
 
-	public Select2Model(ValueStack stack, HttpServletRequest req,HttpServletResponse res) {
+	public SelectModel(ValueStack stack, HttpServletRequest req,HttpServletResponse res) {
 		super(stack, req, res);
 	}
 

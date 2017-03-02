@@ -5,22 +5,22 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.opensymphony.xwork2.util.ValueStack;
 
-public class StrutsMooSelect2Models {
+public class StrutsMooSelectModels {
     private ValueStack stack;
     private HttpServletRequest req;
     private HttpServletResponse res;
     
-    private Select2Model select2Model;
+    private SelectModel select2Model;
 	
-	public StrutsMooSelect2Models(ValueStack stack, HttpServletRequest req, HttpServletResponse res) {
+	public StrutsMooSelectModels(ValueStack stack, HttpServletRequest req, HttpServletResponse res) {
         this.stack = stack;
         this.req = req;
         this.res = res;
     }
 	
-    public Select2Model getSelect2() {
+    public SelectModel getSelect2() {
     	if(select2Model ==null){
-    		select2Model = new Select2Model(stack, req, res);
+    		select2Model = new SelectModel(stack, req, res);
     	}
 		return select2Model;
 	}

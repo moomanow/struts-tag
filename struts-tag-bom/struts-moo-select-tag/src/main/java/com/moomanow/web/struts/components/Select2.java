@@ -32,7 +32,7 @@ import com.opensymphony.xwork2.util.ValueStack;
 
 
 @StrutsTag(
-    name="Select2",
+    name="select2",
     tldTagClass="com.moomanow.web.struts.views.jsp.ui.Select2Tag",
     description="Render a Select2Ext element",
     allowDynamicAttributes=true)
